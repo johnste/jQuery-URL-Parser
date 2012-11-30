@@ -275,7 +275,7 @@
                     buffer += '?';
                     var params_buffer = [];
                     for(var p in this.data.param.query) {
-                        params_buffer.push(p + '=' + this.data.param.query[p]);
+                        params_buffer.push(encodeURIComponent(p) + '=' + encodeURIComponent(this.data.param.query[p]));
                     }
                     buffer += params_buffer.join('&');
                 }
