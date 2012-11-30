@@ -2,6 +2,7 @@
  * JQuery URL Parser plugin, v2.2.1
  * Developed and maintanined by Mark Perkins, mark@allmarkedup.com
  * Source repository: https://github.com/allmarkedup/jQuery-URL-Parser
+ * Using fork: https://github.com/johnste/jQuery-URL-Parser/ to add toString support and query parameter encoding
  * Licensed under an MIT-style license. See https://github.com/allmarkedup/jQuery-URL-Parser/blob/master/LICENSE for details.
  */ 
 
